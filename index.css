@@ -1,0 +1,111 @@
+
+body{
+    background-color: #f3f4f5;/*fondo*/
+    color: black;/* letra*/
+}
+.header{
+    border: 3px solid rgb(190, 101, 241);/*borde del contenedor*/
+    background-color: #ffd105;/* FONDO del contenedor*/
+}
+.header__menu{
+    color: rgb(253, 11, 11)(227, 245, 219);
+    display: flex;/* Poner una lista al lado derecho superior*/
+    justify-content: space-between;
+}
+.header__menu ul{/*Para que ya no quede en lista sino vertical*/
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+}
+.header__menu a{
+    color: #199EFF;
+    padding: 10px;/*Separacion de palabras*/
+    font-weight: 700;/*Gruesor de la letra*/
+    text-transform: uppercase;/*Poner palabras en mayuscula sostenida*/
+    text-decoration: none;/*Eliminar el subrayado de la palabra*/
+}
+.header__menu a:hover{/*poner un cuadro cuando pase el mause*/
+    background-color: rgb(203, 70, 236);
+    color: white;/*Color de la letra cuando pase el mause*/
+    border-radius: 11px;/*Borde redondo*/
+}
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+
+
+.banner{
+    color: rgb(29, 28, 29);
+    background-color:  #bdeaef;
+}
+
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: monospace;
+    font-size: 18px;
+}
+    .portafolio{
+    display: flex;
+    margin: 0 auto;
+}
+.portafolio__box{
+    margin: 15px;
+    box-shadow: 0px 1px 10px 5px #f7d202;
+    border-radius: 20px;
+    width: 33%;
+}
+.portafolio__box img{
+     border-radius: 10px;
+}
+
+.portafolio__card {
+    margin: 20px;
+    padding: 5px;
+}
+.portafolio__card button{
+    background-color: rgb(152, 81, 245);
+    color: rgb(205, 247, 20) rgb(300, 300, 300);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.title{
+    border-left: 6px solid rgb(144, 64, 248);
+    background-color: rgb(255, 255, 255);
+}
+
+.proyectos{
+    display: flex;
+    margin: 0 auto;
+}
+
+.proyecto__box{
+    margin: 15px;
+    box-shadow: 0 px 1px 8px 2px rgb(185, 66, 66);
+    border-radius: 10px;
+    width 50%;
+}
+
+.proyecto__box img{
+    border-radius: 10px;
+}
+
+.proyecto__body{
+    box-shadow: 0px -10px 10px 2px rgba(165, 83, 212, 0.692);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer{/*PIE DE PAGINA*/
+    color: rgb(56, 54, 54);
+    background-color: #ffd105;
+}
